@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>WineCounselingOffice</title>
+    <title>WineConsultationOffice</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -9,7 +9,24 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
-    <%= yield %>
+　<body>
+    <header class="header">
+      <div class="header-content">
+        <div class="header-box">
+          <h1 class="app-title">WineConsultationOffice</h1>
+          <div class="grid-1">
+            <div class="log-inn"><a href="#">ログイン</a></div>
+            <div class="new-post"><a href="#">新規登録</a></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main></main>
+      <footer>
+      <p>
+        Copyright WineConsultationOffice
+      </p>
+    </footer>
   </body>
 </html>
+

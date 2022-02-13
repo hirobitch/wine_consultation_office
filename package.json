@@ -1,5 +1,5 @@
 {
-  "name": "wine_counseling_office",
+  "name":"wine_consultation_office",
   "private": true,
   "dependencies": {
     "@rails/actioncable": "^6.0.0-alpha",

@@ -19,14 +19,14 @@ default: &default
 
 development:
   <<: *default
-  database: wine_counseling_office_development
+  database: wine_consultation_office_development
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: wine_counseling_office_test
+  database: wine_consultation_office_test
 
 # As with config/credentials.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -49,6 +49,6 @@ test:
 #
 production:
   <<: *default
-  database: wine_counseling_office_production
-  username: wine_counseling_office
-  password: <%= ENV['WINE_COUNSELING_OFFICE_DATABASE_PASSWORD'] %>
+  database: wine_consultation_office_production
+  username: wine_consultation_office
+  password: <%= ENV['wine_consultation_office_DATABASE_PASSWORD'] %>
